@@ -33,10 +33,10 @@ const minValue = Math.min(...weightArray)
 console.log(minValue);
 
 let name, weight;
+const bikeDomElem = document.querySelector(".lightest-bike");
 bikes.forEach((bike) => {
     ({name, weight} = bike);
     if (minValue === weight){
-        const bikeDomElem = document.querySelector(".lightest-bike");
         bikeDomElem.innerHTML = 
         `
         ${name} <br>
