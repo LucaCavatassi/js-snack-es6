@@ -50,20 +50,3 @@ bikes.forEach((bike) => {
 
 
 
-
-
-
-// let weightArray;
-// bikes.forEach((bike) => {
-//     ({name, weight} = bike);
-//     console.log(name);
-//     console.log(weight);
-
-//     weightArray = weight.map()
-// });
-
-// const minValue = Math.min(weight)
-// console.log(minValue);
-
-
-
