@@ -32,7 +32,6 @@ const teams = [
 ]
 console.log(teams);
 
-
 const teams2 = []
 teams.forEach((item) => {
     const {name, receivedFouls} = item 
